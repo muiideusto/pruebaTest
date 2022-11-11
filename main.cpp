@@ -22,7 +22,8 @@ int main()
     {
         led1 = !led1;
         contador++;
-        resultado=sumaDatos(a,b);
+        //he cambiado el código
+        resultado=sumaDatos(a,a);
         thread_sleep_for(WAIT_TIME_MS);
     }
 }
